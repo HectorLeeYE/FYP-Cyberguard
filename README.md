@@ -14,5 +14,6 @@ Since its all local containers, dont forget to build with `cyberguard_fastapi:la
 1. `docker plugin install grafana/loki-docker-driver:latest --alias loki --grant-all-permissions`
 2. `docker-compose up -d`
 3. `docker plugin enable loki`              **Use this if your step 2 throws an error**
-4. `locust -f locustfile.py --headless --users 10 --spawn-rate 1 -H http://localhost:8000`
-5. `pip install -r requirements.txt`
+4. `pip install locust`
+5. `locust -f locustfile.py --headless --users 10 --spawn-rate 1 -H http://localhost:8000`
+6. `pip install -r requirements.txt`
