@@ -17,3 +17,7 @@ Since its all local containers, dont forget to build with `cyberguard_fastapi:la
 4. `pip install locust`
 5. `locust -f locustfile.py --headless --users 10 --spawn-rate 1 -H http://localhost:8000`
 6. `pip install -r requirements.txt`
+
+# Instructions
+1. Once you're done with the installation, just open up http://localhost:3000
+2. The login instructions are admin:admin 
